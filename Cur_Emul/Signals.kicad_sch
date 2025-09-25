@@ -3681,6 +3681,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "S_MOS1 Current\n  Free/Limit"
+		(exclude_from_sim no)
+		(at 211.582 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "136efce6-deb2-4ac7-8f10-d63d7a5330f0")
+	)
 	(text "PWM_2_Analog"
 		(exclude_from_sim no)
 		(at 34.29 168.148 0)
@@ -3711,6 +3721,66 @@
 			)
 		)
 		(uuid "2e4c4ce7-b7af-492b-bcca-e3a522680212")
+	)
+	(text "R_Analog_Gain"
+		(exclude_from_sim no)
+		(at 191.77 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45635b8a-3b28-4a0b-9c60-79a94197c34b")
+	)
+	(text "T_MOS1 Current\n  Free/Limit"
+		(exclude_from_sim no)
+		(at 220.98 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45662665-d45c-4f95-a8f2-9f5f2864a8d6")
+	)
+	(text "S_Analog_Gain"
+		(exclude_from_sim no)
+		(at 204.47 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c77e84d-4dae-47c3-8ad9-a0989fe69e53")
+	)
+	(text "T_MOS2 Current\n  Free/Limit"
+		(exclude_from_sim no)
+		(at 232.41 156.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5da4bcb8-9843-4598-a8a6-70549e80bc3c")
+	)
+	(text "T_Analog_Gain"
+		(exclude_from_sim no)
+		(at 204.724 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d854981-43af-4830-b93c-93c0fd3e79c6")
+	)
+	(text "S_MOS2 Current\n  Free/Limit"
+		(exclude_from_sim no)
+		(at 213.614 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6993874-36ee-4b96-963a-3d740b508f18")
 	)
 	(text "DAC_1 Cont. "
 		(exclude_from_sim no)
@@ -5356,16 +5426,6 @@
 			(type default)
 		)
 		(uuid "4cd4c6e9-d940-46b0-ac37-ccca48cff1fd")
-	)
-	(wire
-		(pts
-			(xy 35.56 269.24) (xy 35.56 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef7473a-daa9-4708-898c-a9d230bbcfd4")
 	)
 	(wire
 		(pts
@@ -12316,73 +12376,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 35.56 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31cae9f4-769a-4c01-9c5b-73325e84801d")
-		(property "Reference" "TP17"
-			(at 34.29 263.144 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 38.1 267.2079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 40.64 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 35.56 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca9b5e21-2493-4c45-b7d5-352dddb87b32")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 265.43 0)
 		(unit 1)
@@ -15560,73 +15553,6 @@
 			(project "Cur_Emul"
 				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
 					(reference "JP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e5c3e6c-7c2d-49a0-8783-7470565f3933")
-		(property "Reference" "#PWR085"
-			(at 35.56 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af9023e2-006c-4199-b287-7245c630a8f4")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)

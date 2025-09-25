@@ -2331,6 +2331,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND2"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
@@ -3342,22 +3443,16 @@
 		(uuid "07d9f535-c429-4fca-ae91-e99b6a8cf25a")
 	)
 	(junction
-		(at 299.72 186.69)
+		(at 198.12 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0a7ab7c4-0c60-46d6-b37d-dec14b4523f1")
+		(uuid "0c8023ec-cfe6-41aa-8448-8e48b7e000da")
 	)
 	(junction
 		(at 55.88 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11cc1745-472c-4b38-8732-8a325bb942d9")
-	)
-	(junction
-		(at 106.68 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16e9143a-739c-4d33-96be-7e84b44f13a4")
 	)
 	(junction
 		(at 140.97 85.09)
@@ -3376,12 +3471,6 @@
 		(diameter 0)
 		(color 0 0 194 1)
 		(uuid "1a69d68f-0989-4cd3-aca8-70d00e108eee")
-	)
-	(junction
-		(at 198.12 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "255f5e9d-bd7b-4f40-a985-5328480c8717")
 	)
 	(junction
 		(at 111.76 69.85)
@@ -3480,6 +3569,12 @@
 		(uuid "52b37e21-eb3c-442c-be5b-dd51700d796c")
 	)
 	(junction
+		(at 299.72 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df13f21-f526-4f2e-b812-2b8db81f1354")
+	)
+	(junction
 		(at 140.97 74.93)
 		(diameter 0)
 		(color 0 0 194 1)
@@ -3508,6 +3603,12 @@
 		(diameter 0.5588)
 		(color 0 0 194 1)
 		(uuid "80a014fd-90ff-4d6e-a63e-f0636859760b")
+	)
+	(junction
+		(at 106.68 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80cb0eae-68e5-4fe0-9886-2ce5ec61e0e6")
 	)
 	(junction
 		(at 196.85 33.02)
@@ -7629,7 +7730,8 @@
 	)
 	(symbol
 		(lib_id "New_Library:Transformer_1P_2S")
-		(at 208.28 181.61 180)
+		(at 208.28 181.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7637,7 +7739,7 @@
 		(dnp no)
 		(uuid "09cfcc71-82c6-4fa5-ab44-6508f7b5ee47")
 		(property "Reference" "T3"
-			(at 210.82 171.958 0)
+			(at 210.82 191.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7747,7 @@
 			)
 		)
 		(property "Value" "Transformer_1P_2S"
-			(at 208.28 168.91 0)
+			(at 208.28 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,73 +8870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "327d6d8e-a733-455c-8681-2e136e19d3c4")
-		(property "Reference" "#PWR027"
-			(at 39.37 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d2beb21-3ab3-41e0-a4c9-fd2cfa2a120e")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 311.15 78.74 0)
 		(unit 1)
@@ -9206,7 +9241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 292.862 203.2 90)
 			(effects
 				(font
@@ -9522,7 +9557,8 @@
 	)
 	(symbol
 		(lib_id "New_Library:Transformer_1P_2S")
-		(at 309.88 184.15 180)
+		(at 309.88 184.15 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9530,7 +9566,7 @@
 		(dnp no)
 		(uuid "694ae35b-2eec-46a1-b48e-0d8f69c7b07e")
 		(property "Reference" "T2"
-			(at 312.166 175.006 0)
+			(at 312.166 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9574,7 @@
 			)
 		)
 		(property "Value" "Transformer_1P_2S"
-			(at 309.88 171.45 0)
+			(at 309.88 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 193.802 203.2 90)
 			(effects
 				(font
@@ -9907,7 +9943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3"
 			(at 197.612 203.2 90)
 			(effects
 				(font
@@ -10047,7 +10083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 102.362 200.66 90)
 			(effects
 				(font
@@ -11089,7 +11125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3"
 			(at 296.672 203.2 90)
 			(effects
 				(font
@@ -11904,6 +11940,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 39.37 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f32d99b9-50fd-40f9-af28-17a12fc076a3")
+		(property "Reference" "#PWR021"
+			(at 39.37 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 39.37 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 39.37 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a5b5200-7eaa-41d8-b642-aa2240d66c96")
+		)
+		(instances
+			(project "Cur_Emul"
+				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRF540N")
 		(at 171.45 179.07 0)
 		(unit 1)
@@ -11980,7 +12082,8 @@
 	)
 	(symbol
 		(lib_id "New_Library:Transformer_1P_2S")
-		(at 116.84 180.34 180)
+		(at 116.84 180.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11988,7 +12091,7 @@
 		(dnp no)
 		(uuid "f9545073-eadf-4db3-affd-316e099853c1")
 		(property "Reference" "T1"
-			(at 119.126 171.45 0)
+			(at 119.126 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +12099,7 @@
 			)
 		)
 		(property "Value" "Transformer_1P_2S"
-			(at 116.84 167.64 0)
+			(at 116.84 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12086,7 +12189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3"
 			(at 106.172 200.66 90)
 			(effects
 				(font

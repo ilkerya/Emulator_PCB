@@ -2952,6 +2952,12 @@
 		(uuid "66c9dcb7-041a-4732-ba52-23d9d69dbe8a")
 	)
 	(junction
+		(at 49.53 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71c7733d-3863-4c21-b2b5-664a7d55acec")
+	)
+	(junction
 		(at 88.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3251,6 +3257,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 130.81) (xy 49.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395eb4bf-c04b-429b-b7f6-01d735187344")
+	)
+	(wire
+		(pts
 			(xy 109.22 31.75) (xy 111.76 31.75)
 		)
 		(stroke
@@ -3298,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "3dad3085-59eb-4c1b-ba23-acd8d81e9bed")
+	)
+	(wire
+		(pts
+			(xy 49.53 130.81) (xy 49.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e685668-a32d-4061-a8f6-8018803c38a9")
 	)
 	(wire
 		(pts
@@ -3391,7 +3417,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 139.7) (xy 49.53 113.03)
+			(xy 49.53 139.7) (xy 49.53 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3611,6 +3637,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 139.7) (xy 63.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887212ae-891b-4961-bfec-c6f764c80c5b")
+	)
+	(wire
+		(pts
 			(xy 44.45 168.91) (xy 31.75 168.91)
 		)
 		(stroke
@@ -3758,6 +3794,16 @@
 			(type default)
 		)
 		(uuid "ae03f7a2-ac79-4671-8724-19b175a18b72")
+	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 63.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae93fa7c-2577-4c74-a086-a95074d8dfb5")
 	)
 	(wire
 		(pts
@@ -7369,6 +7415,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 63.5 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae7ebff-a3f5-4669-bc94-7dcc4a1b7ca6")
+		(property "Reference" "#PWR0164"
+			(at 63.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4277ee48-1891-47a3-9662-6f22ad0e58af")
+		)
+		(instances
+			(project "Cur_Emul"
+				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/a72b4fff-9e65-4cce-9a53-221bff09e74e"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 246.38 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7771,6 +7884,74 @@
 			(project "Cur_Emul"
 				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/a72b4fff-9e65-4cce-9a53-221bff09e74e"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 58.42 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95f57859-e1f8-4304-9bee-fb3e83909051")
+		(property "Reference" "J55"
+			(at 59.182 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 59.055 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G_1x02_P7.50mm_Horizontal"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5afa78e7-0a1f-4999-a352-88197acce673")
+		)
+		(pin "1"
+			(uuid "a5671f90-3337-44fc-a6d9-94584377149e")
+		)
+		(instances
+			(project "Cur_Emul"
+				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/a72b4fff-9e65-4cce-9a53-221bff09e74e"
+					(reference "J55")
 					(unit 1)
 				)
 			)

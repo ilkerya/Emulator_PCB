@@ -3744,7 +3744,7 @@
 	)
 	(text "S_Analog_Gain"
 		(exclude_from_sim no)
-		(at 204.47 58.674 0)
+		(at 194.818 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13572,8 +13572,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
-			(at 200.914 89.662 0)
+		(property "Value" "100pF"
+			(at 198.628 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17093,7 +17093,7 @@
 			)
 		)
 		(property "Description" "OPA4196"
-			(at 184.15 32.004 0)
+			(at 175.006 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18329,7 +18329,7 @@
 			)
 		)
 		(property "Description" "OPA4196"
-			(at 184.658 58.42 0)
+			(at 177.546 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22366,7 +22366,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "100pF"
 			(at 214.63 152.4 0)
 			(effects
 				(font
@@ -23342,7 +23342,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "100pF"
 			(at 204.216 46.228 0)
 			(effects
 				(font

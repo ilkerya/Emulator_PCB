@@ -2835,6 +2835,266 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "S_Low_Analog_Gain"
+		(exclude_from_sim no)
+		(at 108.966 254.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "00a81367-b34f-4a5e-856c-6e675cc363d2")
+	)
+	(text "R_Analog_Gain"
+		(exclude_from_sim no)
+		(at 89.916 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18f35230-7245-46e8-af9c-cac04bc5975e")
+	)
+	(text "S_High_I_Limit"
+		(exclude_from_sim no)
+		(at 145.034 232.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "195b7c23-c4f0-4a21-8841-548942b1ee22")
+	)
+	(text "R_Low_PWM"
+		(exclude_from_sim no)
+		(at 46.482 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e0bd0e8-cc03-4f80-9205-8d4b418e7ba5")
+	)
+	(text "S_High_Analog_Gain"
+		(exclude_from_sim no)
+		(at 110.236 205.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20e91e08-0180-4b61-b851-f93d7dce80ff")
+	)
+	(text "S_Low_PWM"
+		(exclude_from_sim no)
+		(at 53.594 249.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28882ad3-e9a1-4385-b8fa-a3ce18ba1370")
+	)
+	(text "T_Low_Analog"
+		(exclude_from_sim no)
+		(at 265.176 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f80a720-d9bc-4c82-a1cd-f95712935f84")
+	)
+	(text "R_Low_Analog"
+		(exclude_from_sim no)
+		(at 76.708 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3828bb86-d570-45b7-9ce2-233ff97309e1")
+	)
+	(text "R_Low_I_Limit"
+		(exclude_from_sim no)
+		(at 143.764 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fb12f4a-d3bc-43b0-a562-79ab32596d50")
+	)
+	(text "R_Low_Analog_Gain"
+		(exclude_from_sim no)
+		(at 106.172 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40ed3ea2-8f26-4a46-8d53-fcfc792edf77")
+	)
+	(text "R_Analog_Gain"
+		(exclude_from_sim no)
+		(at 90.678 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4336bb36-9d0e-43aa-8bcd-c5dcc2254bda")
+	)
+	(text "T_Low_PWM"
+		(exclude_from_sim no)
+		(at 229.108 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "438e1b7e-7d1c-4d99-bbc7-eaf4e5a0275e")
+	)
+	(text "T_High_Analog_Gain"
+		(exclude_from_sim no)
+		(at 295.656 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "441681ab-ceed-4657-8db4-d584d46de9a5")
+	)
+	(text "S_High_Mosfet"
+		(exclude_from_sim no)
+		(at 169.164 209.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4fc7f84c-ee1e-4105-8ad3-0cb20f0c71e2")
+	)
+	(text "S_Low_Analog"
+		(exclude_from_sim no)
+		(at 80.01 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50b330a4-0d97-4526-b9bb-a7245195eb40")
+	)
+	(text "S_Low_I_Limit"
+		(exclude_from_sim no)
+		(at 146.05 282.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53d82ad6-e273-4d4f-843b-0725ce0fd2f8")
+	)
+	(text "S_Low_Mosfet"
+		(exclude_from_sim no)
+		(at 164.846 259.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54d9f320-41e3-4b1f-8112-ffbd3da7471e")
+	)
+	(text "R_High_I_Limit"
+		(exclude_from_sim no)
+		(at 134.112 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56d85fb9-6ee0-4db0-a4e3-decf13a63a5e")
+	)
+	(text "R_High_Analog"
+		(exclude_from_sim no)
+		(at 76.454 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "677fc807-7d0b-4374-8a12-45510dc0aaa4")
+	)
+	(text "T_High_Mosfet"
+		(exclude_from_sim no)
+		(at 338.836 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b15fad0-e5c5-494d-91f6-026e94955f81")
+	)
+	(text "R_High_PWM"
+		(exclude_from_sim no)
+		(at 38.354 23.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e487ad6-707e-42c8-8d72-f6e1c6891a67")
+	)
+	(text "S_High_PWM"
+		(exclude_from_sim no)
+		(at 46.228 199.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9809c231-f21a-480d-8970-32840b0c0f82")
+	)
+	(text "T_Low_Mosfet"
+		(exclude_from_sim no)
+		(at 341.376 160.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1ca5f3d-1d02-4699-9bfb-115f455400ea")
+	)
+	(text "T_High_I_Limit"
+		(exclude_from_sim no)
+		(at 319.024 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1cd1a00-90b8-4935-a02f-94725294d96d")
+	)
+	(text "T_High_Analog"
+		(exclude_from_sim no)
+		(at 257.302 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a57fba9f-8153-49fe-867d-e6b8d841c25e")
+	)
+	(text "T_High_PWM"
+		(exclude_from_sim no)
+		(at 219.964 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9e4e25f-543f-49db-bba8-ba2c91c3a8b7")
+	)
 	(text "Opamp Bypass\nVoltage Generator\n5x 10uF+10nF"
 		(exclude_from_sim no)
 		(at 364.744 219.456 0)
@@ -2845,6 +3105,46 @@
 		)
 		(uuid "bc5152df-3a9b-48aa-af3d-b2a72891a886")
 	)
+	(text "T_High_Analog_Gain"
+		(exclude_from_sim no)
+		(at 290.576 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6bc70b2-15d4-45ab-8b82-34153a9e056a")
+	)
+	(text "R_Low_Mosfet"
+		(exclude_from_sim no)
+		(at 161.798 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce000654-124f-4fb5-b0bd-e02c30537a89")
+	)
+	(text "S_High_Analog"
+		(exclude_from_sim no)
+		(at 82.55 200.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e015c013-babb-49be-9d1f-4d605445d7fe")
+	)
+	(text "T_High_I_Limit"
+		(exclude_from_sim no)
+		(at 322.834 183.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9971039-990e-448b-aaa3-26f505cb5800")
+	)
 	(text "VoltGen_Input"
 		(exclude_from_sim no)
 		(at 37.846 122.428 0)
@@ -2854,6 +3154,26 @@
 			)
 		)
 		(uuid "ed710592-b4a4-4912-8916-260ad6d2b832")
+	)
+	(text "R_High_Mosfet"
+		(exclude_from_sim no)
+		(at 158.75 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eec5e477-80ad-47a7-b383-9a1088b3a5df")
+	)
+	(text "R_High_Analog_Gain"
+		(exclude_from_sim no)
+		(at 108.458 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa64966d-2179-4850-8fa8-dcbd09a875b7")
 	)
 	(junction
 		(at 50.8 81.28)
@@ -13102,7 +13422,7 @@
 		(dnp no)
 		(uuid "69a49640-5f7b-4900-bc20-e1f5c09368d9")
 		(property "Reference" "TP53"
-			(at 250.698 95.504 0)
+			(at 250.952 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)

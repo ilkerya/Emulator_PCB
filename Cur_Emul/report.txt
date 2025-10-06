@@ -1,0 +1,12 @@
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-F_Cu.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-B_Cu.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-F_Paste.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-B_Paste.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-F_Mask.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-B_Mask.gbr'.
+Plotted to 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\SEILYAG\OneDrive - ABB\Share\Emulator\Project\Cur_Emul\GERBER\Cur_Emul-job.gbrjob'.
+Info: Done.
+Info: Done.

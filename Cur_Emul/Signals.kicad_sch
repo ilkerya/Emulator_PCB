@@ -4126,12 +4126,6 @@
 		(uuid "8502dd08-8015-4fc5-abe3-bc3bed4a7e1d")
 	)
 	(junction
-		(at 217.17 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85c995b4-c859-4304-99ad-d15846d3ec2f")
-	)
-	(junction
 		(at 325.12 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4196,12 +4190,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b28747c6-4405-4f92-bb6c-46d162c30078")
-	)
-	(junction
-		(at 207.01 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5c91949-05fa-45bf-b98a-d4c61ec294fc")
 	)
 	(junction
 		(at 21.59 116.84)
@@ -4575,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 38.1) (xy 193.04 38.1)
+			(xy 193.04 38.1) (xy 205.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5185,16 +5173,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 76.2) (xy 205.74 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31644177-5067-40d8-ac6f-539ea54d063a")
-	)
-	(wire
-		(pts
 			(xy 208.28 156.21) (xy 208.28 167.64)
 		)
 		(stroke
@@ -5405,16 +5383,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 38.1) (xy 205.74 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41cae3e4-abff-472d-85cd-8a5f181dff0d")
-	)
-	(wire
-		(pts
 			(xy 53.34 97.79) (xy 55.88 97.79)
 		)
 		(stroke
@@ -5502,16 +5470,6 @@
 			(type default)
 		)
 		(uuid "4ad6c239-ea6f-4ccc-a994-a98733a94924")
-	)
-	(wire
-		(pts
-			(xy 205.74 46.99) (xy 205.74 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1350a2-1b14-4cc8-9b29-65c197b7f4ce")
 	)
 	(wire
 		(pts
@@ -5865,7 +5823,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 55.88) (xy 180.34 55.88)
+			(xy 176.53 55.88) (xy 181.61 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5975,7 +5933,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 59.69) (xy 193.04 59.69)
+			(xy 185.42 59.69) (xy 193.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5985,7 +5943,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 55.88) (xy 193.04 55.88)
+			(xy 189.23 55.88) (xy 193.04 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6705,7 +6663,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 156.21) (xy 209.55 156.21)
+			(xy 208.28 156.21) (xy 217.17 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6805,16 +6763,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 38.1) (xy 205.74 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a99be596-d7cd-43a1-96b2-f7e4194e49df")
-	)
-	(wire
-		(pts
 			(xy 194.31 101.6) (xy 194.31 97.79)
 		)
 		(stroke
@@ -6905,7 +6853,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 76.2) (xy 198.12 76.2)
+			(xy 194.31 76.2) (xy 207.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9593,7 +9541,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K_SMD_Pot"
 			(at 201.168 171.704 90)
 			(effects
 				(font
@@ -9665,7 +9613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 35.56 97.0279 0)
 			(effects
 				(font
@@ -9799,7 +9747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 248.92 19.5579 0)
 			(effects
 				(font
@@ -10406,73 +10354,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 201.93 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "141ae983-4c26-4b71-a624-5a917bec5cfb")
-		(property "Reference" "R34"
-			(at 201.676 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 201.93 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.93 74.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 201.93 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b45edbd-9371-45fc-8956-b494e60abbb0")
-		)
-		(pin "2"
-			(uuid "e1e549f9-f4a3-4306-9bd7-a0deea4cf27d")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 379.73 194.31 0)
 		(unit 1)
@@ -10489,7 +10370,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
+		(property "Value" "Conn_01x06_Pin_JST_2.0mm"
 			(at 380.365 186.69 0)
 			(effects
 				(font
@@ -10704,7 +10585,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 321.31 240.538 0)
 			(effects
 				(font
@@ -10713,7 +10594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SOIC-14_3.9x8.7mm_P1.27mm_ilker"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 321.31 233.68 0)
 			(effects
 				(font
@@ -11075,7 +10956,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 316.23 175.768 0)
 			(effects
 				(font
@@ -11180,7 +11061,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 90.17 273.558 0)
 			(effects
 				(font
@@ -11419,7 +11300,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 85.09 203.708 0)
 			(effects
 				(font
@@ -11523,7 +11404,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 229.108 49.53 0)
 			(effects
 				(font
@@ -11672,73 +11553,6 @@
 			(project "Cur_Emul"
 				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2290cef5-7ae3-47f1-ac09-55861b5294ad")
-		(property "Reference" "#PWR020"
-			(at 217.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dc3ddc7-ab0e-4377-a52a-efe4a96ed821")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12024,7 +11838,7 @@
 		(dnp no)
 		(uuid "2ba85544-68bb-4745-a954-1bca25627ef4")
 		(property "Reference" "C54"
-			(at 202.692 165.608 90)
+			(at 198.628 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12032,8 +11846,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
-			(at 194.818 165.608 90)
+		(property "Value" "10nF/50V"
+			(at 194.564 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,8 +11982,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 82.042 230.632 90)
+		(property "Value" "1uF/50V"
+			(at 78.994 230.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12237,7 +12051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10nF/50V"
 			(at 300.228 157.48 90)
 			(effects
 				(font
@@ -12506,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "Conn_01x04_Pin_JST_2.0mm"
 			(at 37.465 182.88 0)
 			(effects
 				(font
@@ -12981,8 +12795,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
-			(at 303.784 223.52 90)
+		(property "Value" "10nF/50V"
+			(at 303.276 221.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,7 +12864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 250.19 76.7079 0)
 			(effects
 				(font
@@ -13475,73 +13289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "410bfda1-0f74-48ff-b721-02874ebf0564")
-		(property "Reference" "#PWR017"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12b96f10-90a5-4331-a10d-0d23fa9f05e7")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 250.19 138.43 90)
 		(unit 1)
@@ -13693,7 +13440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 337.82 165.6079 0)
 			(effects
 				(font
@@ -13810,75 +13557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 207.01 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47c2e9f0-6e62-4e7e-9e9e-575dc867a7a6")
-		(property "Reference" "C1"
-			(at 201.676 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100pF"
-			(at 198.628 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 207.9752 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e0a3ad9-3640-4610-8573-87b9ccf34732")
-		)
-		(pin "1"
-			(uuid "3f6ec1de-0e1f-4a18-9066-e91d2b842edd")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 185.42 97.79 270)
 		(unit 1)
@@ -13895,7 +13573,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K_SMD_Pot"
 			(at 187.198 95.504 90)
 			(effects
 				(font
@@ -14174,7 +13852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 215.9 257.8099 0)
 			(effects
 				(font
@@ -14315,7 +13993,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 229.87 14.732 0)
 			(effects
 				(font
@@ -14508,7 +14186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 209.55 257.8099 0)
 			(effects
 				(font
@@ -14714,7 +14392,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 230.632 71.882 0)
 			(effects
 				(font
@@ -15024,7 +14702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 248.92 38.6079 0)
 			(effects
 				(font
@@ -15396,7 +15074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 227.33 257.8099 0)
 			(effects
 				(font
@@ -16164,7 +15842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 40.64 267.2079 0)
 			(effects
 				(font
@@ -16299,7 +15977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 241.3 257.8099 0)
 			(effects
 				(font
@@ -16579,7 +16257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 35.56 267.2079 0)
 			(effects
 				(font
@@ -17320,7 +16998,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 184.15 31.242 0)
 			(effects
 				(font
@@ -17920,73 +17598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82053c53-4166-4f05-a06f-f0ffda2498a1")
-		(property "Reference" "#PWR018"
-			(at 205.74 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60ed131d-554e-46c2-88ed-e126e81f47c1")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 30.48 269.24 0)
 		(unit 1)
@@ -18004,7 +17615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 33.02 267.2079 0)
 			(effects
 				(font
@@ -18128,7 +17739,7 @@
 		(dnp no)
 		(uuid "8275ded5-8faf-4c5c-8748-30f02d6f1531")
 		(property "Reference" "C56"
-			(at 187.452 44.958 90)
+			(at 171.704 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18136,8 +17747,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
-			(at 179.578 44.958 90)
+		(property "Value" "10nF/50V"
+			(at 180.594 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18339,7 +17950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 195.58 33.5279 0)
 			(effects
 				(font
@@ -18625,7 +18236,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 185.42 69.342 0)
 			(effects
 				(font
@@ -18796,7 +18407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 27.94 267.2079 0)
 			(effects
 				(font
@@ -18930,7 +18541,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10nF/50V"
 			(at 304.546 188.214 90)
 			(effects
 				(font
@@ -19066,7 +18677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 341.63 196.0879 0)
 			(effects
 				(font
@@ -19270,7 +18881,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 240.792 122.936 0)
 			(effects
 				(font
@@ -19279,7 +18890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SOIC-14_3.9x8.7mm_P1.27mm_ilker"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 238.76 128.27 0)
 			(effects
 				(font
@@ -19374,7 +18985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 58.42 141.4779 0)
 			(effects
 				(font
@@ -19778,7 +19389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 379.73 171.9579 0)
 			(effects
 				(font
@@ -19963,7 +19574,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
-		(at 184.15 55.88 270)
+		(at 185.42 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19971,15 +19582,15 @@
 		(dnp no)
 		(uuid "96ddbf09-1722-4f43-bae7-083e36d621de")
 		(property "Reference" "RV1"
-			(at 184.15 55.88 90)
+			(at 185.42 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 185.928 53.594 90)
+		(property "Value" "10K_SMD_Pot"
+			(at 189.738 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19988,7 +19599,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical"
-			(at 184.15 55.88 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19997,7 +19608,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3314J-1-103E/86580"
-			(at 184.15 55.88 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20006,7 +19617,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 184.15 55.88 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20050,7 +19661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 344.17 226.5679 0)
 			(effects
 				(font
@@ -20249,7 +19860,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 320.04 206.248 0)
 			(effects
 				(font
@@ -20354,7 +19965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 60.96 117.3479 0)
 			(effects
 				(font
@@ -20620,7 +20231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 40.64 117.3479 0)
 			(effects
 				(font
@@ -20930,7 +20541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 43.18 267.2079 0)
 			(effects
 				(font
@@ -21233,7 +20844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 30.48 267.2079 0)
 			(effects
 				(font
@@ -21454,7 +21065,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08_Pin"
+		(property "Value" "Conn_01x08_Pin_JST_2.0mm"
 			(at 22.225 46.99 0)
 			(effects
 				(font
@@ -21693,7 +21304,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 229.362 107.188 0)
 			(effects
 				(font
@@ -21885,7 +21496,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 237.998 155.956 0)
 			(effects
 				(font
@@ -21894,7 +21505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SOIC-14_3.9x8.7mm_P1.27mm_ilker"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 238.76 147.32 0)
 			(effects
 				(font
@@ -22202,7 +21813,7 @@
 		(dnp no)
 		(uuid "b477ee17-457f-4ea4-8d7c-a0acf426e0ee")
 		(property "Reference" "C55"
-			(at 189.992 86.868 90)
+			(at 172.466 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22210,8 +21821,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
-			(at 182.118 86.868 90)
+		(property "Value" "10nF/50V"
+			(at 180.594 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22278,7 +21889,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08_Pin"
+		(property "Value" "Conn_01x08_Pin_JST_2.0mm"
 			(at 20.955 19.05 0)
 			(effects
 				(font
@@ -22365,7 +21976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 22.86 138.9379 0)
 			(effects
 				(font
@@ -22589,7 +22200,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 199.39 149.352 0)
 			(effects
 				(font
@@ -22598,7 +22209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SOIC-14_3.9x8.7mm_P1.27mm_ilker"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 199.39 156.21 0)
 			(effects
 				(font
@@ -22742,75 +22353,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7e783bb-e14f-4f67-99bb-7ab7c25a2ebe")
-		(property "Reference" "C4"
-			(at 220.98 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100pF"
-			(at 215.9 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 218.1352 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b1dcd0e-bb8d-4df0-b9eb-5495e62ec041")
-		)
-		(pin "1"
-			(uuid "46fa2981-4ad1-479e-92a7-3337fdbb0003")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 22.86 148.59 0)
 		(unit 1)
@@ -22895,7 +22437,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 90.17 251.968 0)
 			(effects
 				(font
@@ -23115,73 +22657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 213.36 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "beae244f-915c-4b0c-9d1a-69580b2037b7")
-		(property "Reference" "R43"
-			(at 213.36 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 213.106 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 213.36 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbcfda84-a254-4940-bedd-8acdf2b3d0b3")
-		)
-		(pin "2"
-			(uuid "0ad4cadd-6ab8-4ca1-92d3-2fd1d80eb630")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 194.31 74.93 0)
 		(unit 1)
@@ -23199,7 +22674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 196.85 72.8979 0)
 			(effects
 				(font
@@ -23467,7 +22942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 72.39 240.5379 0)
 			(effects
 				(font
@@ -23718,75 +23193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 205.74 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cec21caf-830d-4a1b-89e5-582f0981b259")
-		(property "Reference" "C2"
-			(at 203.2 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100pF"
-			(at 204.216 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 206.7052 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1396dabb-8a6a-4c3f-83b7-ac0a8b3987bf")
-		)
-		(pin "1"
-			(uuid "62ec8715-9f94-4daa-bd0f-498ee2c26ad0")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:OPA4196xD")
 		(at 88.9 222.25 0)
 		(mirror x)
@@ -23804,7 +23210,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
+		(property "Value" "Opamp_Quad_OPA_4196"
 			(at 88.9 229.108 0)
 			(effects
 				(font
@@ -23976,7 +23382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 21.59 114.8079 0)
 			(effects
 				(font
@@ -24181,7 +23587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 55.88 95.7579 0)
 			(effects
 				(font
@@ -24520,7 +23926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 69.85 191.0079 0)
 			(effects
 				(font
@@ -24587,7 +23993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 210.82 151.6379 0)
 			(effects
 				(font
@@ -24725,7 +24131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 45.72 267.2079 0)
 			(effects
 				(font
@@ -24859,8 +24265,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 76.962 182.372 90)
+		(property "Value" "1uF/50V"
+			(at 76.2 180.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24928,7 +24334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 250.19 97.0279 0)
 			(effects
 				(font
@@ -25065,73 +24471,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 199.39 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecfb1918-d9db-4b45-b802-74d2a7f740f1")
-		(property "Reference" "R29"
-			(at 199.644 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 199.39 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 199.39 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9706f87-4c6a-487f-97d9-d7ca088ed16a")
-		)
-		(pin "2"
-			(uuid "e141ef8c-196b-4721-954d-9c595a260908")
-		)
-		(instances
-			(project "Cur_Emul"
-				(path "/dc5d512a-495b-491d-b4f8-7c4c083c0e6b/3008488a-b78b-4e12-986e-52b2be71de9b"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 63.5 0)
 		(unit 1)
@@ -25216,7 +24555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 72.39 217.6779 0)
 			(effects
 				(font
@@ -25283,7 +24622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 256.54 145.2879 0)
 			(effects
 				(font
@@ -25821,8 +25160,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 80.772 207.772 90)
+		(property "Value" "1uF/50V"
+			(at 78.486 206.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25890,7 +25229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Alt"
+		(property "Value" "Test_Point_THT_KeyStone"
 			(at 257.81 126.2379 0)
 			(effects
 				(font
@@ -26089,7 +25428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Test_Pad_Not_A_Component"
 			(at 44.45 140.2079 0)
 			(effects
 				(font

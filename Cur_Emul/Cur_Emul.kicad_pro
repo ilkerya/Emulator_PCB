@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         0.5,
         1.0,
         3.0
@@ -508,9 +509,9 @@
       "idf": "",
       "netlist": "",
       "plot": "GERBER/",
-      "pos_files": "",
+      "pos_files": "GERBER/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Cur_Emul.step",
       "svg": "",
       "vrml": ""
     },
